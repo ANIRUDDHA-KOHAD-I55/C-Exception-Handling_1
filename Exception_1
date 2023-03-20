@@ -1,0 +1,18 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+
+int main() {
+    float a,b;
+    std::cout<<"Enter numerator->";
+    std::cin>>a;
+    std::cout<<"Enter denomenator->";
+    std::cin>>b;
+    if(b==0){
+        std::cout<<"Exception= denominator is 0.";
+    }
+    else{
+        std::cout<<a/b;
+    }
+
+    return 0;
+}
